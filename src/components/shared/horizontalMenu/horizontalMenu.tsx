@@ -3,24 +3,25 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './horizontalMenu.css';
+import { NavLink } from 'react-router-dom';
 
 export const HorizontalMenu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" id="horizontal-menu">
-      <Navbar.Brand href="/">Главная</Navbar.Brand>
+      <NavLink to="/">Главная</NavLink>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" id="horizontal-menu-items">
           <NavDropdown title="Товары и услуги" id="horizontal-menu-dropdown">
-            <NavDropdown.Item href="/">1</NavDropdown.Item>
-            <NavDropdown.Item href="/">2</NavDropdown.Item>
-            <NavDropdown.Item href="/">3</NavDropdown.Item>
+            <NavLink to="/">1</NavLink>
+            <NavLink to="/">2</NavLink>
+            <NavLink to="/">3</NavLink>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/">4</NavDropdown.Item>
+            <NavLink to="/">4</NavLink>
           </NavDropdown>
-          <Nav.Link href="/about-us">О нас</Nav.Link>
-          <Nav.Link href="/contacts">Контакты</Nav.Link>
-          <Nav.Link href="/delivery">Доставка и оплата</Nav.Link>
+          <NavLink to="/about-us">О нас</NavLink>
+          <NavLink to="/contacts">Контакты</NavLink>
+          <NavLink to="/delivery">Доставка и оплата</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

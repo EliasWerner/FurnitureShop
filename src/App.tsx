@@ -22,6 +22,8 @@ function App() {
             <VerticalMenu />
           </div>
           <div className="column">
+            {count}
+            <button onClick={() => setCount(5)}>Button</button>
             <AppRouter />
           </div>
         </div>
