@@ -8,16 +8,10 @@ import { Header } from './components/shared/header/header';
 import { Footer } from './components/shared/footer/footer';
 import { HorizontalMenu } from './components/shared/horizontalMenu/horizontalMenu';
 import { VerticalMenu } from './components/shared/verticalMenu/verticalMenu';
+import { AppRouter } from './components/router/router';
 function App() {
   const [count, setCount] = React.useState<number>(0);
 
-  const increment = () => {
-    setCount(count + 1);
-  };
-
-  const decerement = () => {
-    setCount(count - 1);
-  };
   return (
     <div className="App">
       <Header />
@@ -28,13 +22,7 @@ function App() {
             <VerticalMenu />
           </div>
           <div className="column">
-            <p>{count}</p>
-            <Button variant="success" onClick={increment}>
-              +
-            </Button>
-            <Button variant="success" onClick={decerement}>
-              -
-            </Button>
+            <AppRouter />
           </div>
         </div>
       </div>
