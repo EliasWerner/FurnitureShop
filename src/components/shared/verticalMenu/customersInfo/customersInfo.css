@@ -2,4 +2,9 @@
   margin-top: 20px;
   padding-left: 16px;
   text-align: left;
+  margin-bottom: 20px;
+}
+
+tr > th {
+  padding-right: 30px;
 }

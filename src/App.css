@@ -14,13 +14,11 @@
 }
 
 .column {
-  background-color: darkkhaki;
 }
 
 .content {
   margin: auto;
   width: 85%;
-  height: 100%;
   background-color: white;
 }
 
