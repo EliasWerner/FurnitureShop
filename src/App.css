@@ -1,10 +1,27 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  align-items: stretch;
+}
+
+.column {
+  background-color: darkkhaki;
+}
+
+.content {
+  margin: auto;
+  width: 85%;
+  height: 100%;
+  background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {

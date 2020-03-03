@@ -1,0 +1,25 @@
+.contacts {
+  margin-top: 20px;
+  padding-left: 16px;
+  text-align: left;
+}
+
+.item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: thin dashed darkgrey;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.item > h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item > span {
+  font-size: 14px;
+  color: darkgrey;
+}

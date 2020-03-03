@@ -1,0 +1,20 @@
+#horizontal-menu {
+  background-color: #2d2d2d;
+}
+
+#horizontal-menu > a {
+  color: aliceblue;
+}
+
+#horizontal-menu-items > a {
+  color: aliceblue;
+}
+
+#horizontal-menu-dropdown {
+  color: aliceblue;
+  background-color: #2d2d2d;
+}
+
+#horizontal-menu-dropdown > a {
+  color: aliceblue;
+}

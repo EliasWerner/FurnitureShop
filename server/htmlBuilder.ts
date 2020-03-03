@@ -47,6 +47,14 @@ export class HtmlBuilder {
     return `
             <!doctype html>
             <html>
+            <style>
+            html, body, #root, #root>div
+            {
+                width: 100%;
+                height: 100%;
+                background-color: rgb(40, 39, 114);
+            }
+            </style>
                 <head>
                     <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
                     <title>react-typescript-ssr</title>
