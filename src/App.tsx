@@ -10,8 +10,6 @@ import { HorizontalMenu } from './components/shared/horizontalMenu/horizontalMen
 import { VerticalMenu } from './components/shared/verticalMenu/verticalMenu';
 import { AppRouter } from './components/router/router';
 function App() {
-  const [count, setCount] = React.useState<number>(0);
-
   return (
     <div className="App">
       <Header />
@@ -22,8 +20,6 @@ function App() {
             <VerticalMenu />
           </div>
           <div className="column">
-            {count}
-            <button onClick={() => setCount(5)}>Button</button>
             <AppRouter />
           </div>
         </div>

@@ -13,7 +13,8 @@
   align-items: stretch;
 }
 
-.column {
+.column:last-of-type {
+  width: 100%;
 }
 
 .content {
