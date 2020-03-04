@@ -1,16 +1,16 @@
 {
-  "./ownerWindow": [
+  "./Collapse": [
     {
-      "id": "./node_modules/dom-helpers/esm/ownerWindow.js",
-      "name": "./node_modules/dom-helpers/esm/ownerWindow.js",
+      "id": "./node_modules/react-bootstrap/esm/Collapse.js",
+      "name": "./node_modules/react-bootstrap/esm/Collapse.js",
       "file": "main.js",
       "publicPath": "/static/main.js"
     },
     {
-      "id": "./node_modules/dom-helpers/esm/ownerWindow.js",
-      "name": "./node_modules/dom-helpers/esm/ownerWindow.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "id": "./node_modules/react-bootstrap/esm/Collapse.js",
+      "name": "./node_modules/react-bootstrap/esm/Collapse.js",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "undefined": [
@@ -23,8 +23,8 @@
     {
       "id": 0,
       "name": null,
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./../webpack/buildin/module.js": [
@@ -37,8 +37,8 @@
     {
       "id": "./node_modules/webpack/buildin/module.js",
       "name": "./node_modules/webpack/buildin/module.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "strip-ansi": [
@@ -51,8 +51,8 @@
     {
       "id": "./node_modules/webpack-hot-middleware/node_modules/strip-ansi/index.js",
       "name": "./node_modules/webpack-hot-middleware/node_modules/strip-ansi/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "ansi-regex": [
@@ -65,8 +65,8 @@
     {
       "id": "./node_modules/webpack-hot-middleware/node_modules/ansi-regex/index.js",
       "name": "./node_modules/webpack-hot-middleware/node_modules/ansi-regex/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./client-overlay": [
@@ -79,8 +79,8 @@
     {
       "id": "./node_modules/webpack-hot-middleware/client-overlay.js",
       "name": "./node_modules/webpack-hot-middleware/client-overlay.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "ansi-html": [
@@ -93,8 +93,8 @@
     {
       "id": "./node_modules/ansi-html/index.js",
       "name": "./node_modules/ansi-html/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "html-entities": [
@@ -107,8 +107,8 @@
     {
       "id": "./node_modules/html-entities/index.js",
       "name": "./node_modules/html-entities/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./lib/xml-entities.js": [
@@ -121,8 +121,8 @@
     {
       "id": "./node_modules/html-entities/lib/xml-entities.js",
       "name": "./node_modules/html-entities/lib/xml-entities.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./lib/html4-entities.js": [
@@ -135,8 +135,8 @@
     {
       "id": "./node_modules/html-entities/lib/html4-entities.js",
       "name": "./node_modules/html-entities/lib/html4-entities.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./lib/html5-entities.js": [
@@ -149,8 +149,8 @@
     {
       "id": "./node_modules/html-entities/lib/html5-entities.js",
       "name": "./node_modules/html-entities/lib/html5-entities.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./process-update": [
@@ -163,8 +163,8 @@
     {
       "id": "./node_modules/webpack-hot-middleware/process-update.js",
       "name": "./node_modules/webpack-hot-middleware/process-update.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./src/client.tsx": [
@@ -177,8 +177,8 @@
     {
       "id": "./src/client.tsx",
       "name": "./src/client.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./../node_modules/webpack/buildin/harmony-module.js": [
@@ -191,8 +191,8 @@
     {
       "id": "./node_modules/webpack/buildin/harmony-module.js",
       "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react": [
@@ -205,8 +205,8 @@
     {
       "id": "./node_modules/react/index.js",
       "name": "./node_modules/react/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./cjs/react.development.js": [
@@ -219,8 +219,8 @@
     {
       "id": "./node_modules/react/cjs/react.development.js",
       "name": "./node_modules/react/cjs/react.development.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "object-assign": [
@@ -233,8 +233,8 @@
     {
       "id": "./node_modules/object-assign/index.js",
       "name": "./node_modules/object-assign/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "prop-types/checkPropTypes": [
@@ -247,8 +247,8 @@
     {
       "id": "./node_modules/prop-types/checkPropTypes.js",
       "name": "./node_modules/prop-types/checkPropTypes.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./lib/ReactPropTypesSecret": [
@@ -261,8 +261,8 @@
     {
       "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-dom": [
@@ -275,8 +275,8 @@
     {
       "id": "./node_modules/react-dom/index.js",
       "name": "./node_modules/react-dom/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./cjs/react-dom.development.js": [
@@ -289,8 +289,8 @@
     {
       "id": "./node_modules/react-dom/cjs/react-dom.development.js",
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "scheduler": [
@@ -303,8 +303,8 @@
     {
       "id": "./node_modules/scheduler/index.js",
       "name": "./node_modules/scheduler/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./cjs/scheduler.development.js": [
@@ -317,8 +317,8 @@
     {
       "id": "./node_modules/scheduler/cjs/scheduler.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "scheduler/tracing": [
@@ -331,8 +331,8 @@
     {
       "id": "./node_modules/scheduler/tracing.js",
       "name": "./node_modules/scheduler/tracing.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./cjs/scheduler-tracing.development.js": [
@@ -345,8 +345,8 @@
     {
       "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-router-dom": [
@@ -359,8 +359,8 @@
     {
       "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
       "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-router": [
@@ -373,8 +373,8 @@
     {
       "id": "./node_modules/react-router/esm/react-router.js",
       "name": "./node_modules/react-router/esm/react-router.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@babel/runtime/helpers/esm/inheritsLoose": [
@@ -387,8 +387,8 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "prop-types": [
@@ -401,8 +401,8 @@
     {
       "id": "./node_modules/prop-types/index.js",
       "name": "./node_modules/prop-types/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-is": [
@@ -415,8 +415,8 @@
     {
       "id": "./node_modules/react-is/index.js",
       "name": "./node_modules/react-is/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./cjs/react-is.development.js": [
@@ -429,8 +429,8 @@
     {
       "id": "./node_modules/react-is/cjs/react-is.development.js",
       "name": "./node_modules/react-is/cjs/react-is.development.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./factoryWithTypeCheckers": [
@@ -443,8 +443,8 @@
     {
       "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
       "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "history": [
@@ -457,8 +457,8 @@
     {
       "id": "./node_modules/history/esm/history.js",
       "name": "./node_modules/history/esm/history.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@babel/runtime/helpers/esm/extends": [
@@ -471,8 +471,8 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "resolve-pathname": [
@@ -485,8 +485,8 @@
     {
       "id": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
       "name": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "value-equal": [
@@ -499,8 +499,8 @@
     {
       "id": "./node_modules/value-equal/esm/value-equal.js",
       "name": "./node_modules/value-equal/esm/value-equal.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "tiny-warning": [
@@ -513,8 +513,8 @@
     {
       "id": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
       "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "tiny-invariant": [
@@ -527,8 +527,8 @@
     {
       "id": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
       "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "mini-create-react-context": [
@@ -541,8 +541,8 @@
     {
       "id": "./node_modules/mini-create-react-context/dist/esm/index.js",
       "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@babel/runtime/helpers/inheritsLoose": [
@@ -555,8 +555,8 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
       "name": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "gud": [
@@ -569,11 +569,11 @@
     {
       "id": "./node_modules/gud/index.js",
       "name": "./node_modules/gud/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
-  "./../../webpack/buildin/global.js": [
+  "./../webpack/buildin/global.js": [
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
@@ -583,8 +583,8 @@
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "path-to-regexp": [
@@ -597,8 +597,8 @@
     {
       "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
       "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "isarray": [
@@ -611,8 +611,8 @@
     {
       "id": "./node_modules/react-router/node_modules/isarray/index.js",
       "name": "./node_modules/react-router/node_modules/isarray/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
@@ -625,8 +625,8 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "hoist-non-react-statics": [
@@ -639,8 +639,8 @@
     {
       "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-loadable": [
@@ -653,8 +653,8 @@
     {
       "id": "./node_modules/react-loadable/lib/index.js",
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "bootstrap/dist/css/bootstrap.css": [
@@ -667,8 +667,8 @@
     {
       "id": "./node_modules/bootstrap/dist/css/bootstrap.css",
       "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js": [
@@ -681,8 +681,8 @@
     {
       "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
       "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../css-loader/dist/cjs.js!./bootstrap.css": [
@@ -695,8 +695,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../../../css-loader/dist/runtime/api.js": [
@@ -709,8 +709,8 @@
     {
       "id": "./node_modules/css-loader/dist/runtime/api.js",
       "name": "./node_modules/css-loader/dist/runtime/api.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./App": [
@@ -723,8 +723,8 @@
     {
       "id": "./src/App.tsx",
       "name": "./src/App.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./App.css": [
@@ -737,8 +737,8 @@
     {
       "id": "./src/App.css",
       "name": "./src/App.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../node_modules/css-loader/dist/cjs.js!./App.css": [
@@ -751,8 +751,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@fortawesome/fontawesome-svg-core": [
@@ -765,8 +765,8 @@
     {
       "id": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
       "name": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./../../timers-browserify/main.js": [
@@ -779,8 +779,8 @@
     {
       "id": "./node_modules/timers-browserify/main.js",
       "name": "./node_modules/timers-browserify/main.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "setimmediate": [
@@ -793,8 +793,8 @@
     {
       "id": "./node_modules/setimmediate/setImmediate.js",
       "name": "./node_modules/setimmediate/setImmediate.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./../process/browser.js": [
@@ -807,8 +807,8 @@
     {
       "id": "./node_modules/process/browser.js",
       "name": "./node_modules/process/browser.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@fortawesome/free-regular-svg-icons": [
@@ -821,8 +821,8 @@
     {
       "id": "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js",
       "name": "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@fortawesome/free-solid-svg-icons": [
@@ -835,8 +835,8 @@
     {
       "id": "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js",
       "name": "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./components/shared/header/header": [
@@ -849,8 +849,8 @@
     {
       "id": "./src/components/shared/header/header.tsx",
       "name": "./src/components/shared/header/header.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./header.css": [
@@ -863,8 +863,8 @@
     {
       "id": "./src/components/shared/header/header.css",
       "name": "./src/components/shared/header/header.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../node_modules/css-loader/dist/cjs.js!./header.css": [
@@ -877,8 +877,78 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/header.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/header.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "@fortawesome/react-fontawesome": [
+    {
+      "id": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "../../../assets/logo.jpg": [
+    {
+      "id": "./src/assets/logo.jpg",
+      "name": "./src/assets/logo.jpg",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./src/assets/logo.jpg",
+      "name": "./src/assets/logo.jpg",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "./search/search": [
+    {
+      "id": "./src/components/shared/header/search/search.tsx",
+      "name": "./src/components/shared/header/search/search.tsx",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./src/components/shared/header/search/search.tsx",
+      "name": "./src/components/shared/header/search/search.tsx",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "./search.css": [
+    {
+      "id": "./src/components/shared/header/search/search.css",
+      "name": "./src/components/shared/header/search/search.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./src/components/shared/header/search/search.css",
+      "name": "./src/components/shared/header/search/search.css",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "!!../../../../../node_modules/css-loader/dist/cjs.js!./search.css": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/search/search.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/search/search.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/search/search.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/header/search/search.css",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./components/shared/footer/footer": [
@@ -891,8 +961,8 @@
     {
       "id": "./src/components/shared/footer/footer.tsx",
       "name": "./src/components/shared/footer/footer.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./footer.css": [
@@ -905,8 +975,8 @@
     {
       "id": "./src/components/shared/footer/footer.css",
       "name": "./src/components/shared/footer/footer.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../node_modules/css-loader/dist/cjs.js!./footer.css": [
@@ -919,8 +989,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/footer/footer.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/footer/footer.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./components/shared/horizontalMenu/horizontalMenu": [
@@ -933,8 +1003,8 @@
     {
       "id": "./src/components/shared/horizontalMenu/horizontalMenu.tsx",
       "name": "./src/components/shared/horizontalMenu/horizontalMenu.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-bootstrap/Navbar": [
@@ -947,8 +1017,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/Navbar.js",
       "name": "./node_modules/react-bootstrap/esm/Navbar.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "classnames": [
@@ -961,8 +1031,8 @@
     {
       "id": "./node_modules/classnames/index.js",
       "name": "./node_modules/classnames/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "uncontrollable": [
@@ -975,8 +1045,8 @@
     {
       "id": "./node_modules/uncontrollable/esm/index.js",
       "name": "./node_modules/uncontrollable/esm/index.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./hook": [
@@ -989,8 +1059,8 @@
     {
       "id": "./node_modules/uncontrollable/esm/hook.js",
       "name": "./node_modules/uncontrollable/esm/hook.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./utils": [
@@ -1003,8 +1073,8 @@
     {
       "id": "./node_modules/uncontrollable/esm/utils.js",
       "name": "./node_modules/uncontrollable/esm/utils.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "invariant": [
@@ -1017,8 +1087,8 @@
     {
       "id": "./node_modules/invariant/browser.js",
       "name": "./node_modules/invariant/browser.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./uncontrollable": [
@@ -1031,8 +1101,8 @@
     {
       "id": "./node_modules/uncontrollable/esm/uncontrollable.js",
       "name": "./node_modules/uncontrollable/esm/uncontrollable.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-lifecycles-compat": [
@@ -1045,8 +1115,8 @@
     {
       "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
       "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./createWithBsPrefix": [
@@ -1059,8 +1129,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/createWithBsPrefix.js",
       "name": "./node_modules/react-bootstrap/esm/createWithBsPrefix.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "dom-helpers/camelize": [
@@ -1073,8 +1143,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/camelize.js",
       "name": "./node_modules/dom-helpers/esm/camelize.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./ThemeProvider": [
@@ -1087,8 +1157,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/ThemeProvider.js",
       "name": "./node_modules/react-bootstrap/esm/ThemeProvider.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/context/forwardRef": [
@@ -1101,8 +1171,8 @@
     {
       "id": "./node_modules/@restart/context/forwardRef.js",
       "name": "./node_modules/@restart/context/forwardRef.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavbarBrand": [
@@ -1115,8 +1185,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavbarBrand.js",
       "name": "./node_modules/react-bootstrap/esm/NavbarBrand.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavbarCollapse": [
@@ -1129,50 +1199,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavbarCollapse.js",
       "name": "./node_modules/react-bootstrap/esm/NavbarCollapse.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
-    }
-  ],
-  "./Collapse": [
-    {
-      "id": "./node_modules/react-bootstrap/esm/Collapse.js",
-      "name": "./node_modules/react-bootstrap/esm/Collapse.js",
-      "file": "main.js",
-      "publicPath": "/static/main.js"
-    },
-    {
-      "id": "./node_modules/react-bootstrap/esm/Collapse.js",
-      "name": "./node_modules/react-bootstrap/esm/Collapse.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
-    }
-  ],
-  "dom-helpers/css": [
-    {
-      "id": "./node_modules/dom-helpers/esm/css.js",
-      "name": "./node_modules/dom-helpers/esm/css.js",
-      "file": "main.js",
-      "publicPath": "/static/main.js"
-    },
-    {
-      "id": "./node_modules/dom-helpers/esm/css.js",
-      "name": "./node_modules/dom-helpers/esm/css.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
-    }
-  ],
-  "./getComputedStyle": [
-    {
-      "id": "./node_modules/dom-helpers/esm/getComputedStyle.js",
-      "name": "./node_modules/dom-helpers/esm/getComputedStyle.js",
-      "file": "main.js",
-      "publicPath": "/static/main.js"
-    },
-    {
-      "id": "./node_modules/dom-helpers/esm/getComputedStyle.js",
-      "name": "./node_modules/dom-helpers/esm/getComputedStyle.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "webpack-hot-middleware/client": [
@@ -1185,8 +1213,50 @@
     {
       "id": "./node_modules/webpack-hot-middleware/client.js",
       "name": "./node_modules/webpack-hot-middleware/client.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "dom-helpers/css": [
+    {
+      "id": "./node_modules/dom-helpers/esm/css.js",
+      "name": "./node_modules/dom-helpers/esm/css.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./node_modules/dom-helpers/esm/css.js",
+      "name": "./node_modules/dom-helpers/esm/css.js",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "./getComputedStyle": [
+    {
+      "id": "./node_modules/dom-helpers/esm/getComputedStyle.js",
+      "name": "./node_modules/dom-helpers/esm/getComputedStyle.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./node_modules/dom-helpers/esm/getComputedStyle.js",
+      "name": "./node_modules/dom-helpers/esm/getComputedStyle.js",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
+    }
+  ],
+  "./ownerWindow": [
+    {
+      "id": "./node_modules/dom-helpers/esm/ownerWindow.js",
+      "name": "./node_modules/dom-helpers/esm/ownerWindow.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    },
+    {
+      "id": "./node_modules/dom-helpers/esm/ownerWindow.js",
+      "name": "./node_modules/dom-helpers/esm/ownerWindow.js",
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./ownerDocument": [
@@ -1199,8 +1269,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/ownerDocument.js",
       "name": "./node_modules/dom-helpers/esm/ownerDocument.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./hyphenateStyle": [
@@ -1213,8 +1283,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/hyphenateStyle.js",
       "name": "./node_modules/dom-helpers/esm/hyphenateStyle.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./hyphenate": [
@@ -1227,8 +1297,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/hyphenate.js",
       "name": "./node_modules/dom-helpers/esm/hyphenate.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./isTransform": [
@@ -1241,8 +1311,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/isTransform.js",
       "name": "./node_modules/dom-helpers/esm/isTransform.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "dom-helpers/transitionEnd": [
@@ -1255,8 +1325,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/transitionEnd.js",
       "name": "./node_modules/dom-helpers/esm/transitionEnd.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./canUseDOM": [
@@ -1269,8 +1339,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/canUseDOM.js",
       "name": "./node_modules/dom-helpers/esm/canUseDOM.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./listen": [
@@ -1283,8 +1353,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/listen.js",
       "name": "./node_modules/dom-helpers/esm/listen.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./addEventListener": [
@@ -1297,8 +1367,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/addEventListener.js",
       "name": "./node_modules/dom-helpers/esm/addEventListener.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./removeEventListener": [
@@ -1311,8 +1381,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/removeEventListener.js",
       "name": "./node_modules/dom-helpers/esm/removeEventListener.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-transition-group/Transition": [
@@ -1325,8 +1395,8 @@
     {
       "id": "./node_modules/react-transition-group/esm/Transition.js",
       "name": "./node_modules/react-transition-group/esm/Transition.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./config": [
@@ -1339,8 +1409,8 @@
     {
       "id": "./node_modules/react-transition-group/esm/config.js",
       "name": "./node_modules/react-transition-group/esm/config.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./utils/PropTypes": [
@@ -1353,8 +1423,8 @@
     {
       "id": "./node_modules/react-transition-group/esm/utils/PropTypes.js",
       "name": "./node_modules/react-transition-group/esm/utils/PropTypes.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./TransitionGroupContext": [
@@ -1367,8 +1437,8 @@
     {
       "id": "./node_modules/react-transition-group/esm/TransitionGroupContext.js",
       "name": "./node_modules/react-transition-group/esm/TransitionGroupContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./createChainedFunction": [
@@ -1381,8 +1451,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/createChainedFunction.js",
       "name": "./node_modules/react-bootstrap/esm/createChainedFunction.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./triggerBrowserReflow": [
@@ -1395,8 +1465,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js",
       "name": "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavbarContext": [
@@ -1409,8 +1479,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavbarContext.js",
       "name": "./node_modules/react-bootstrap/esm/NavbarContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavbarToggle": [
@@ -1423,8 +1493,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavbarToggle.js",
       "name": "./node_modules/react-bootstrap/esm/NavbarToggle.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/hooks/useEventCallback": [
@@ -1437,8 +1507,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/useEventCallback.js",
       "name": "./node_modules/@restart/hooks/esm/useEventCallback.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./useCommittedRef": [
@@ -1451,8 +1521,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/useCommittedRef.js",
       "name": "./node_modules/@restart/hooks/esm/useCommittedRef.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./SelectableContext": [
@@ -1465,8 +1535,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/SelectableContext.js",
       "name": "./node_modules/react-bootstrap/esm/SelectableContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-bootstrap/Nav": [
@@ -1479,8 +1549,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/Nav.js",
       "name": "./node_modules/react-bootstrap/esm/Nav.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "prop-types-extra/lib/all": [
@@ -1493,8 +1563,8 @@
     {
       "id": "./node_modules/prop-types-extra/lib/all.js",
       "name": "./node_modules/prop-types-extra/lib/all.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./utils/createChainableTypeChecker": [
@@ -1507,8 +1577,8 @@
     {
       "id": "./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js",
       "name": "./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./CardContext": [
@@ -1521,8 +1591,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/CardContext.js",
       "name": "./node_modules/react-bootstrap/esm/CardContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./AbstractNav": [
@@ -1535,8 +1605,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/AbstractNav.js",
       "name": "./node_modules/react-bootstrap/esm/AbstractNav.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "dom-helpers/querySelectorAll": [
@@ -1549,8 +1619,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/querySelectorAll.js",
       "name": "./node_modules/dom-helpers/esm/querySelectorAll.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/hooks/useForceUpdate": [
@@ -1563,8 +1633,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/useForceUpdate.js",
       "name": "./node_modules/@restart/hooks/esm/useForceUpdate.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/hooks/useMergedRefs": [
@@ -1577,8 +1647,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/useMergedRefs.js",
       "name": "./node_modules/@restart/hooks/esm/useMergedRefs.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavContext": [
@@ -1591,8 +1661,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavContext.js",
       "name": "./node_modules/react-bootstrap/esm/NavContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./TabContext": [
@@ -1605,8 +1675,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/TabContext.js",
       "name": "./node_modules/react-bootstrap/esm/TabContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavItem": [
@@ -1619,8 +1689,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavItem.js",
       "name": "./node_modules/react-bootstrap/esm/NavItem.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./NavLink": [
@@ -1633,8 +1703,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavLink.js",
       "name": "./node_modules/react-bootstrap/esm/NavLink.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./SafeAnchor": [
@@ -1647,8 +1717,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/SafeAnchor.js",
       "name": "./node_modules/react-bootstrap/esm/SafeAnchor.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./AbstractNavItem": [
@@ -1661,8 +1731,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
       "name": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-bootstrap/NavDropdown": [
@@ -1675,8 +1745,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/NavDropdown.js",
       "name": "./node_modules/react-bootstrap/esm/NavDropdown.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./Dropdown": [
@@ -1689,8 +1759,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/Dropdown.js",
       "name": "./node_modules/react-bootstrap/esm/Dropdown.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "react-overlays/Dropdown": [
@@ -1703,8 +1773,8 @@
     {
       "id": "./node_modules/react-overlays/esm/Dropdown.js",
       "name": "./node_modules/react-overlays/esm/Dropdown.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "dom-helpers/matches": [
@@ -1717,8 +1787,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/matches.js",
       "name": "./node_modules/dom-helpers/esm/matches.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/hooks/usePrevious": [
@@ -1731,8 +1801,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/usePrevious.js",
       "name": "./node_modules/@restart/hooks/esm/usePrevious.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "@restart/hooks/useCallbackRef": [
@@ -1745,8 +1815,8 @@
     {
       "id": "./node_modules/@restart/hooks/esm/useCallbackRef.js",
       "name": "./node_modules/@restart/hooks/esm/useCallbackRef.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./DropdownContext": [
@@ -1759,8 +1829,8 @@
     {
       "id": "./node_modules/react-overlays/esm/DropdownContext.js",
       "name": "./node_modules/react-overlays/esm/DropdownContext.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./DropdownMenu": [
@@ -1779,14 +1849,14 @@
     {
       "id": "./node_modules/react-overlays/esm/DropdownMenu.js",
       "name": "./node_modules/react-overlays/esm/DropdownMenu.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     },
     {
       "id": "./node_modules/react-bootstrap/esm/DropdownMenu.js",
       "name": "./node_modules/react-bootstrap/esm/DropdownMenu.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./usePopper": [
@@ -1799,8 +1869,8 @@
     {
       "id": "./node_modules/react-overlays/esm/usePopper.js",
       "name": "./node_modules/react-overlays/esm/usePopper.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "popper.js": [
@@ -1813,8 +1883,8 @@
     {
       "id": "./node_modules/popper.js/dist/esm/popper.js",
       "name": "./node_modules/popper.js/dist/esm/popper.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./useRootClose": [
@@ -1827,8 +1897,8 @@
     {
       "id": "./node_modules/react-overlays/esm/useRootClose.js",
       "name": "./node_modules/react-overlays/esm/useRootClose.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "dom-helpers/contains": [
@@ -1841,8 +1911,8 @@
     {
       "id": "./node_modules/dom-helpers/esm/contains.js",
       "name": "./node_modules/dom-helpers/esm/contains.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "warning": [
@@ -1855,8 +1925,8 @@
     {
       "id": "./node_modules/warning/warning.js",
       "name": "./node_modules/warning/warning.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./utils/ownerDocument": [
@@ -1869,8 +1939,8 @@
     {
       "id": "./node_modules/react-overlays/esm/utils/ownerDocument.js",
       "name": "./node_modules/react-overlays/esm/utils/ownerDocument.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./DropdownToggle": [
@@ -1889,14 +1959,14 @@
     {
       "id": "./node_modules/react-overlays/esm/DropdownToggle.js",
       "name": "./node_modules/react-overlays/esm/DropdownToggle.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     },
     {
       "id": "./node_modules/react-bootstrap/esm/DropdownToggle.js",
       "name": "./node_modules/react-bootstrap/esm/DropdownToggle.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./DropdownItem": [
@@ -1909,8 +1979,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/DropdownItem.js",
       "name": "./node_modules/react-bootstrap/esm/DropdownItem.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./useWrappedRefWithWarning": [
@@ -1923,8 +1993,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js",
       "name": "./node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "prop-types-extra/lib/isRequiredForA11y": [
@@ -1937,11 +2007,11 @@
     {
       "id": "./node_modules/prop-types-extra/lib/isRequiredForA11y.js",
       "name": "./node_modules/prop-types-extra/lib/isRequiredForA11y.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
-  "./Button": [
+  "react-bootstrap/Button": [
     {
       "id": "./node_modules/react-bootstrap/esm/Button.js",
       "name": "./node_modules/react-bootstrap/esm/Button.js",
@@ -1951,8 +2021,8 @@
     {
       "id": "./node_modules/react-bootstrap/esm/Button.js",
       "name": "./node_modules/react-bootstrap/esm/Button.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./horizontalMenu.css": [
@@ -1965,8 +2035,8 @@
     {
       "id": "./src/components/shared/horizontalMenu/horizontalMenu.css",
       "name": "./src/components/shared/horizontalMenu/horizontalMenu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../node_modules/css-loader/dist/cjs.js!./horizontalMenu.css": [
@@ -1979,8 +2049,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/horizontalMenu/horizontalMenu.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/horizontalMenu/horizontalMenu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./components/shared/verticalMenu/verticalMenu": [
@@ -1993,8 +2063,8 @@
     {
       "id": "./src/components/shared/verticalMenu/verticalMenu.tsx",
       "name": "./src/components/shared/verticalMenu/verticalMenu.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./verticalMenu.css": [
@@ -2007,8 +2077,8 @@
     {
       "id": "./src/components/shared/verticalMenu/verticalMenu.css",
       "name": "./src/components/shared/verticalMenu/verticalMenu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../node_modules/css-loader/dist/cjs.js!./verticalMenu.css": [
@@ -2021,8 +2091,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/verticalMenu.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/verticalMenu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./menu/menu": [
@@ -2035,8 +2105,8 @@
     {
       "id": "./src/components/shared/verticalMenu/menu/menu.tsx",
       "name": "./src/components/shared/verticalMenu/menu/menu.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./menu.css": [
@@ -2049,8 +2119,8 @@
     {
       "id": "./src/components/shared/verticalMenu/menu/menu.css",
       "name": "./src/components/shared/verticalMenu/menu/menu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../../node_modules/css-loader/dist/cjs.js!./menu.css": [
@@ -2063,8 +2133,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/menu/menu.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/menu/menu.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./contacts/contacts": [
@@ -2077,8 +2147,8 @@
     {
       "id": "./src/components/shared/verticalMenu/contacts/contacts.tsx",
       "name": "./src/components/shared/verticalMenu/contacts/contacts.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./contacts.css": [
@@ -2097,14 +2167,14 @@
     {
       "id": "./src/components/shared/verticalMenu/contacts/contacts.css",
       "name": "./src/components/shared/verticalMenu/contacts/contacts.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     },
     {
       "id": "./src/components/contactsPage/contacts.css",
       "name": "./src/components/contactsPage/contacts.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../../node_modules/css-loader/dist/cjs.js!./contacts.css": [
@@ -2117,8 +2187,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/contacts/contacts.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/contacts/contacts.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./customersInfo/customersInfo": [
@@ -2131,8 +2201,8 @@
     {
       "id": "./src/components/shared/verticalMenu/customersInfo/customersInfo.tsx",
       "name": "./src/components/shared/verticalMenu/customersInfo/customersInfo.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./customersInfo.css": [
@@ -2145,8 +2215,8 @@
     {
       "id": "./src/components/shared/verticalMenu/customersInfo/customersInfo.css",
       "name": "./src/components/shared/verticalMenu/customersInfo/customersInfo.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../../../node_modules/css-loader/dist/cjs.js!./customersInfo.css": [
@@ -2159,8 +2229,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/customersInfo/customersInfo.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/shared/verticalMenu/customersInfo/customersInfo.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./components/router/router": [
@@ -2173,8 +2243,8 @@
     {
       "id": "./src/components/router/router.tsx",
       "name": "./src/components/router/router.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../mainPage/main": [
@@ -2187,8 +2257,8 @@
     {
       "id": "./src/components/mainPage/main.tsx",
       "name": "./src/components/mainPage/main.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../aboutUsPage/aboutUs": [
@@ -2201,8 +2271,8 @@
     {
       "id": "./src/components/aboutUsPage/aboutUs.tsx",
       "name": "./src/components/aboutUsPage/aboutUs.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./aboutUs.css": [
@@ -2215,8 +2285,8 @@
     {
       "id": "./src/components/aboutUsPage/aboutUs.css",
       "name": "./src/components/aboutUsPage/aboutUs.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../node_modules/css-loader/dist/cjs.js!./aboutUs.css": [
@@ -2229,8 +2299,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/aboutUsPage/aboutUs.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/aboutUsPage/aboutUs.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../contactsPage/contacts": [
@@ -2243,8 +2313,8 @@
     {
       "id": "./src/components/contactsPage/contacts.tsx",
       "name": "./src/components/contactsPage/contacts.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../node_modules/css-loader/dist/cjs.js!./contacts.css": [
@@ -2257,8 +2327,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/contactsPage/contacts.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/contactsPage/contacts.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../feedbackPage/feedbacks": [
@@ -2271,8 +2341,8 @@
     {
       "id": "./src/components/feedbackPage/feedbacks.tsx",
       "name": "./src/components/feedbackPage/feedbacks.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../deliveryInfoPage/deliveryInfo": [
@@ -2285,22 +2355,8 @@
     {
       "id": "./src/components/deliveryInfoPage/deliveryInfo.tsx",
       "name": "./src/components/deliveryInfoPage/deliveryInfo.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
-    }
-  ],
-  "@fortawesome/react-fontawesome": [
-    {
-      "id": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
-      "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
-      "file": "main.js",
-      "publicPath": "/static/main.js"
-    },
-    {
-      "id": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
-      "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "./deliveryInfo.css": [
@@ -2313,8 +2369,8 @@
     {
       "id": "./src/components/deliveryInfoPage/deliveryInfo.css",
       "name": "./src/components/deliveryInfoPage/deliveryInfo.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "!!../../../node_modules/css-loader/dist/cjs.js!./deliveryInfo.css": [
@@ -2327,8 +2383,8 @@
     {
       "id": "./node_modules/css-loader/dist/cjs.js!./src/components/deliveryInfoPage/deliveryInfo.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./src/components/deliveryInfoPage/deliveryInfo.css",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ],
   "../pageNotFound/pageNotFound": [
@@ -2341,8 +2397,8 @@
     {
       "id": "./src/components/pageNotFound/pageNotFound.tsx",
       "name": "./src/components/pageNotFound/pageNotFound.tsx",
-      "file": "main.f321d0bfd5c8e778f083.hot-update.js",
-      "publicPath": "/static/main.f321d0bfd5c8e778f083.hot-update.js"
+      "file": "main.497fa822d59f3dc0f776.hot-update.js",
+      "publicPath": "/static/main.497fa822d59f3dc0f776.hot-update.js"
     }
   ]
 }

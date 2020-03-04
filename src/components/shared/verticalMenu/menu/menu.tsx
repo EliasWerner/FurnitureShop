@@ -9,15 +9,15 @@ export const Menu = () => {
       <div className="vert-menu-item">
         <NavLink to="/">Меню</NavLink>
       </div>
-      <div className="vert-menu-item">
+      {/*<div className="vert-menu-item">
         <NavLink to="/">Товары и услуги</NavLink>
-      </div>
+      </div>*/}
       <div className="vert-menu-item">
         <NavLink to="/about-us">О нас</NavLink>
       </div>
-      <div className="vert-menu-item">
+      {/*<div className="vert-menu-item">
         <NavLink to="/">Сертификаты и лицензии</NavLink>
-      </div>
+      </div>*/}
       <div className="vert-menu-item">
         <NavLink to="/feedbacks">Отзывы</NavLink>
       </div>
