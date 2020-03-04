@@ -1,0 +1,28 @@
+.delivery-info {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.delivery-info > h3 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.delivery-info-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: thin solid #f0f0f0;
+}
+
+.delivery-info-item > h5 {
+  text-align: left;
+}
+
+.delivery-info-item > h5 * {
+  margin-right: 10px;
+}
+
+.delivery-info ul {
+  text-align: left;
+}
