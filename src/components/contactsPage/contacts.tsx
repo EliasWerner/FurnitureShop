@@ -1,7 +1,12 @@
 import * as React from 'react';
 import './contacts.css';
+import { AskQuestion } from './askQuestionForm/askQuestionForm';
 
 export const Contacts = () => {
+  const [showQuestionForm, setShowQuestionForm] = React.useState<boolean>(
+    false
+  );
+
   return (
     <div className="contact-info">
       <h3>Контактная информация компании Mebel-online</h3>
@@ -42,9 +47,13 @@ export const Contacts = () => {
         </tbody>
       </table>
       <div className="contacts-buttons">
-        <button>Написать нам</button>
-        <button>График работы</button>
+        <button onClick={() => setShowQuestionForm(true)}>Написать нам</button>
+        {/*<button>График работы</button>*/}
       </div>
+      <AskQuestion
+        show={showQuestionForm}
+        onHide={() => setShowQuestionForm(false)}
+      />
     </div>
   );
 };
