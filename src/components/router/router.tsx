@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Route, Switch, NavLink } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Main } from '../mainPage/main';
 import { AboutUs } from '../aboutUsPage/aboutUs';
 import { Contacts } from '../contactsPage/contacts';
-import { Feedbacks } from '../feedbackPage/feedbacks';
+import { Feedbacks } from '../feedbacksPage/feedbacks';
 import { DeliveryInfo } from '../deliveryInfoPage/deliveryInfo';
 import { PageNotFound } from '../pageNotFound/pageNotFound';
 import { ShoppingCart } from '../shoppingCartPage/shoppingCart';
