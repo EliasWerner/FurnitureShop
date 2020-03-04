@@ -1,13 +1,18 @@
 .contacts {
   margin-top: 20px;
-  padding-left: 16px;
+
   text-align: left;
+}
+
+.contacts > h4 {
+  padding-left: 15px;
 }
 
 .item {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: thin dashed darkgrey;
+  padding-left: 15px;
 }
 
 .item:last-child {

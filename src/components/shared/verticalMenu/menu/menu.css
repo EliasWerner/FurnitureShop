@@ -3,6 +3,19 @@
   background-color: #2d2d2d;
 }
 
-#vertical-menu > a {
+.vert-menu-item > a {
   color: aliceblue;
+}
+
+.vert-menu-item {
+  text-align: left;
+  width: 100%;
+  border-bottom: thin dashed dimgray;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#vert-menu-item:last-child {
+  border-bottom: none;
 }
