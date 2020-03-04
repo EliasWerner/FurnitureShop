@@ -30,7 +30,13 @@
   flex-grow: 1;
   font-size: 18px;
   text-transform: uppercase;
+  color: white;
   font-weight: bold;
+}
+
+.shopping-card:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .shopping-card > svg {

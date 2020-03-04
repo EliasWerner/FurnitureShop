@@ -6,6 +6,7 @@ import { Contacts } from '../contactsPage/contacts';
 import { Feedbacks } from '../feedbackPage/feedbacks';
 import { DeliveryInfo } from '../deliveryInfoPage/deliveryInfo';
 import { PageNotFound } from '../pageNotFound/pageNotFound';
+import { ShoppingCart } from '../shoppingCartPage/shoppingCart';
 
 export const AppRouter = () => {
   return (
@@ -15,6 +16,7 @@ export const AppRouter = () => {
       <Route exact path="/contacts" component={Contacts} />
       <Route exact path="/feedbacks" component={Feedbacks} />
       <Route exact path="/delivery" component={DeliveryInfo} />
+      <Route exact path="/shopping-cart" component={ShoppingCart} />
       <Route component={PageNotFound} />
     </Switch>
   );

@@ -14,10 +14,10 @@ export const Header = () => {
       <div className="search">
         <Search />
       </div>
-      <div className="shopping-card">
+      <NavLink className="shopping-card" to="/shopping-cart">
         <FontAwesomeIcon icon={['fas', 'shopping-cart']} />
         <span>Корзина</span>
-      </div>
+      </NavLink>
     </div>
   );
 };
