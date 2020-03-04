@@ -19,7 +19,7 @@ export const HorizontalMenu = () => {
           <div className="hor-menu-item">
             <NavDropdown title="Товары и услуги" id="horizontal-menu-dropdown">
               <div className="hor-menu-subitem">
-                <NavLink to="/">1</NavLink>
+                <NavLink to="/furniture">Мебель</NavLink>
               </div>
               <div className="hor-menu-subitem">
                 <NavLink to="/">2</NavLink>
