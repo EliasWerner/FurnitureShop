@@ -1,8 +1,8 @@
 {
-  "./config": [
+  "./AbstractNavItem": [
     {
-      "id": "./node_modules/react-transition-group/esm/config.js",
-      "name": "./node_modules/react-transition-group/esm/config.js",
+      "id": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
+      "name": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
@@ -799,10 +799,10 @@
       "publicPath": "/static/main.js"
     }
   ],
-  "webpack-hot-middleware/client": [
+  "./config": [
     {
-      "id": "./node_modules/webpack-hot-middleware/client.js",
-      "name": "./node_modules/webpack-hot-middleware/client.js",
+      "id": "./node_modules/react-transition-group/esm/config.js",
+      "name": "./node_modules/react-transition-group/esm/config.js",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
@@ -983,10 +983,10 @@
       "publicPath": "/static/main.js"
     }
   ],
-  "./AbstractNavItem": [
+  "webpack-hot-middleware/client": [
     {
-      "id": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
-      "name": "./node_modules/react-bootstrap/esm/AbstractNavItem.js",
+      "id": "./node_modules/webpack-hot-middleware/client.js",
+      "name": "./node_modules/webpack-hot-middleware/client.js",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
@@ -1601,6 +1601,374 @@
     {
       "id": "./src/components/furniture/furniture.tsx",
       "name": "./src/components/furniture/furniture.tsx",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypes/furnitureTypesListContainer": [
+    {
+      "id": "./src/components/furniture/furnitureTypes/furnitureTypesListContainer.ts",
+      "name": "./src/components/furniture/furnitureTypes/furnitureTypesListContainer.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "react-redux": [
+    {
+      "id": "./node_modules/react-redux/es/index.js",
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./components/Provider": [
+    {
+      "id": "./node_modules/react-redux/es/components/Provider.js",
+      "name": "./node_modules/react-redux/es/components/Provider.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./components/Context": [
+    {
+      "id": "./node_modules/react-redux/es/components/Context.js",
+      "name": "./node_modules/react-redux/es/components/Context.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../utils/Subscription": [
+    {
+      "id": "./node_modules/react-redux/es/utils/Subscription.js",
+      "name": "./node_modules/react-redux/es/utils/Subscription.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./utils/batch": [
+    {
+      "id": "./node_modules/react-redux/es/utils/batch.js",
+      "name": "./node_modules/react-redux/es/utils/batch.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./components/connectAdvanced": [
+    {
+      "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "name": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../utils/useIsomorphicLayoutEffect": [
+    {
+      "id": "./node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js",
+      "name": "./node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./connect/connect": [
+    {
+      "id": "./node_modules/react-redux/es/connect/connect.js",
+      "name": "./node_modules/react-redux/es/connect/connect.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./utils/shallowEqual": [
+    {
+      "id": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "name": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./mapDispatchToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "redux": [
+    {
+      "id": "./node_modules/redux/es/redux.js",
+      "name": "./node_modules/redux/es/redux.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./wrapMapToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "name": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../utils/verifyPlainObject": [
+    {
+      "id": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./isPlainObject": [
+    {
+      "id": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./warning": [
+    {
+      "id": "./node_modules/react-redux/es/utils/warning.js",
+      "name": "./node_modules/react-redux/es/utils/warning.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./mapStateToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./mergeProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "name": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./selectorFactory": [
+    {
+      "id": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "name": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./verifySubselectors": [
+    {
+      "id": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "name": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./hooks/useDispatch": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "name": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./hooks/useStore": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useStore.js",
+      "name": "./node_modules/react-redux/es/hooks/useStore.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./useReduxContext": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "name": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./hooks/useSelector": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "name": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./utils/reactBatchedUpdates": [
+    {
+      "id": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "name": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypesList": [
+    {
+      "id": "./src/components/furniture/furnitureTypes/furnitureTypesList.tsx",
+      "name": "./src/components/furniture/furnitureTypes/furnitureTypesList.tsx",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypesList.css": [
+    {
+      "id": "./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "name": "./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "!!../../../../node_modules/css-loader/dist/cjs.js!./furnitureTypesList.css": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypeItem/furnitureTypeItem": [
+    {
+      "id": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.tsx",
+      "name": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.tsx",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypeItem.css": [
+    {
+      "id": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "name": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "!!../../../../../node_modules/css-loader/dist/cjs.js!./furnitureTypeItem.css": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../../../store/furnitureTypes/furnitureTypesActions": [
+    {
+      "id": "./src/store/furnitureTypes/furnitureTypesActions.ts",
+      "name": "./src/store/furnitureTypes/furnitureTypesActions.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypesActionTypes": [
+    {
+      "id": "./src/store/furnitureTypes/furnitureTypesActionTypes.ts",
+      "name": "./src/store/furnitureTypes/furnitureTypesActionTypes.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../operationStatus": [
+    {
+      "id": "./src/store/operationStatus.ts",
+      "name": "./src/store/operationStatus.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "../../services/furnitureTypesService": [
+    {
+      "id": "./src/services/furnitureTypesService.ts",
+      "name": "./src/services/furnitureTypesService.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furniture.css": [
+    {
+      "id": "./src/components/furniture/furniture.css",
+      "name": "./src/components/furniture/furniture.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "!!../../../node_modules/css-loader/dist/cjs.js!./furniture.css": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furniture.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furniture.css",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./store/store": [
+    {
+      "id": "./src/store/store.ts",
+      "name": "./src/store/store.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furniture/furnitureReducer": [
+    {
+      "id": "./src/store/furniture/furnitureReducer.ts",
+      "name": "./src/store/furniture/furnitureReducer.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureActionTypes": [
+    {
+      "id": "./src/store/furniture/furnitureActionTypes.ts",
+      "name": "./src/store/furniture/furnitureActionTypes.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureState": [
+    {
+      "id": "./src/store/furniture/furnitureState.ts",
+      "name": "./src/store/furniture/furnitureState.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "redux-thunk": [
+    {
+      "id": "./node_modules/redux-thunk/es/index.js",
+      "name": "./node_modules/redux-thunk/es/index.js",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypes/furnitureTypesReducer": [
+    {
+      "id": "./src/store/furnitureTypes/furnitureTypesReducer.ts",
+      "name": "./src/store/furnitureTypes/furnitureTypesReducer.ts",
+      "file": "main.js",
+      "publicPath": "/static/main.js"
+    }
+  ],
+  "./furnitureTypesState": [
+    {
+      "id": "./src/store/furnitureTypes/furnitureTypesState.ts",
+      "name": "./src/store/furnitureTypes/furnitureTypesState.ts",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }

@@ -1,6 +1,34 @@
 import * as React from 'react';
 import './furnitureTypesList.css';
+import { IFurnitureType } from '../../../models/IFurnitureType';
+import { OperationStatus } from '../../../store/operationStatus';
+import { FurnitureTypeItem } from './furnitureTypeItem/furnitureTypeItem';
 
-export const FurnitureTypesList = () => {
-  return <div>Furniture Types</div>;
+export interface IFurnitureTypesParams {
+  furnitureTypes: IFurnitureType[];
+  loadingStatus: OperationStatus;
+}
+
+export interface IFurnitureTypesFuncs {
+  getFurnitureTypes: () => void;
+}
+
+export interface IFurnitureTypesProps
+  extends IFurnitureTypesFuncs,
+    IFurnitureTypesParams {}
+
+export const FurnitureTypesList = (props: IFurnitureTypesProps) => {
+  React.useEffect(() => {
+    props.getFurnitureTypes();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  return (
+    <div className="furniture-types-list">
+      {props.furnitureTypes.length
+        ? props.furnitureTypes.map((ft) => (
+            <FurnitureTypeItem furnitureType={ft} />
+          ))
+        : null}
+    </div>
+  );
 };

@@ -8,26 +8,31 @@ import { Footer } from './components/shared/footer/footer';
 import { HorizontalMenu } from './components/shared/horizontalMenu/horizontalMenu';
 import { VerticalMenu } from './components/shared/verticalMenu/verticalMenu';
 import { AppRouter } from './components/router/router';
+import { configureStore } from './store/store';
+import { Provider } from 'react-redux';
 
 library.add(fas, far);
+
+const store = configureStore();
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="content">
-        <HorizontalMenu />
-        <div className="row">
-          <div className="column">
-            <VerticalMenu />
-          </div>
-          <div className="column">
-            <AppRouter />
+      <Provider store={store}>
+        <Header />
+        <div className="content">
+          <HorizontalMenu />
+          <div className="row">
+            <div className="column">
+              <VerticalMenu />
+            </div>
+            <div className="column">
+              <AppRouter />
+            </div>
           </div>
         </div>
-      </div>
-
-      <Footer />
+        <Footer />
+      </Provider>
     </div>
   );
 }
