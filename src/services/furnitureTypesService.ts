@@ -65,4 +65,8 @@ export class FurnitureTypesService {
       (ft) => ft.ParentTypeId === furnitureTypeId
     );
   };
+
+  public getFurnityreTypeById = (typeId: number) => {
+    return this.furnitureTypes.filter((ft) => ft.Id === typeId)[0];
+  };
 }

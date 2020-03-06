@@ -3,6 +3,7 @@ import { OperationStatus } from '../operationStatus';
 import { IGlobalState } from '../globalState';
 import { IFurniture } from '../../models/IFurniture';
 import { FurnitureService } from '../../services/furnitureService';
+import { IFurnitureType } from '../../models/IFurnitureType';
 
 // SET_LOADING
 
@@ -74,15 +75,18 @@ export const getFurnitureById = (furnitureId: number) => {
   };
 };
 
-export const getFurnituresByType = (furnitureTypeId: number) => {
+export const getFurnituresByTypes = (furnitureTypes: IFurnitureType[]) => {
   return async (dispatch: any, getState: () => IGlobalState) => {
     try {
       dispatch(setLoading(OperationStatus.InProgress));
 
+      let furniture: IFurniture[] = [];
+
       const service = new FurnitureService();
-      const furniture: IFurniture[] = service.getFurnitureByType(
-        furnitureTypeId
-      );
+      for (const type of furnitureTypes) {
+        const furnitureForType = service.getFurnitureByType(type.Id);
+        furniture = [...furniture, ...furnitureForType];
+      }
 
       dispatch(setFurniture(furniture));
       dispatch(setLoading(OperationStatus.Completed));

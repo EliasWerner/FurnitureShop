@@ -1,0 +1,32 @@
+.furniture-list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.furniture-list-item:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-container {
+  width: 280px;
+  height: 200px;
+}
+
+.furniture-list-item > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.furniture-list-item > h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}

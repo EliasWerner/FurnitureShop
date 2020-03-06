@@ -64,4 +64,59 @@ export const getMainFurnitureTypes = () => {
   };
 };
 
-export type FurnitureTypesActions = SetLoading | SetFurnitureTypes;
+export interface SetSelectedFurnitureType {
+  type: furnitureTypesActionTypes.SET_CURRENT_FURNITURE_TYPE;
+  furnitureType: IFurnitureType;
+}
+
+export const setSelectedFurnitureType = (
+  furnitureType: IFurnitureType
+): FurnitureTypesActions => ({
+  furnitureType,
+  type: furnitureTypesActionTypes.SET_CURRENT_FURNITURE_TYPE,
+});
+
+export const getFurnitureTypeById = (typeId: number) => {
+  return async (dispatch: any, getState: () => IGlobalState) => {
+    try {
+      dispatch(setLoading(OperationStatus.InProgress));
+
+      const service = new FurnitureTypesService();
+      const furnitureType: IFurnitureType = service.getFurnityreTypeById(
+        typeId
+      );
+
+      dispatch(setSelectedFurnitureType(furnitureType));
+      dispatch(setLoading(OperationStatus.Completed));
+    } catch (error) {
+      dispatch(setLoading(OperationStatus.Failed));
+    } finally {
+      dispatch(setLoading(OperationStatus.NotStarted));
+    }
+  };
+};
+
+export const getFurnitureSubtypesForParentType = (parentTypeId: number) => {
+  return async (dispatch: any, getState: () => IGlobalState) => {
+    try {
+      dispatch(setLoading(OperationStatus.InProgress));
+
+      const service = new FurnitureTypesService();
+      const furnitureTypes: IFurnitureType[] = service.getFurnitureSubtypes(
+        parentTypeId
+      );
+
+      dispatch(setFurnitureTypes(furnitureTypes));
+      dispatch(setLoading(OperationStatus.Completed));
+    } catch (error) {
+      dispatch(setLoading(OperationStatus.Failed));
+    } finally {
+      dispatch(setLoading(OperationStatus.NotStarted));
+    }
+  };
+};
+
+export type FurnitureTypesActions =
+  | SetLoading
+  | SetFurnitureTypes
+  | SetSelectedFurnitureType;

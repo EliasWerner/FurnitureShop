@@ -1597,18 +1597,18 @@
       "publicPath": "/static/main.js"
     }
   ],
-  "../furniture/furniture": [
+  "../furnitureCatalog/furnitureCatalog": [
     {
-      "id": "./src/components/furniture/furniture.tsx",
-      "name": "./src/components/furniture/furniture.tsx",
+      "id": "./src/components/furnitureCatalog/furnitureCatalog.tsx",
+      "name": "./src/components/furnitureCatalog/furnitureCatalog.tsx",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
-  "./furnitureTypes/furnitureTypesListContainer": [
+  "./furnitureTypesList/furnitureTypesListContainer": [
     {
-      "id": "./src/components/furniture/furnitureTypes/furnitureTypesListContainer.ts",
-      "name": "./src/components/furniture/furnitureTypes/furnitureTypesListContainer.ts",
+      "id": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesListContainer.ts",
+      "name": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesListContainer.ts",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
@@ -1823,48 +1823,48 @@
   ],
   "./furnitureTypesList": [
     {
-      "id": "./src/components/furniture/furnitureTypes/furnitureTypesList.tsx",
-      "name": "./src/components/furniture/furnitureTypes/furnitureTypesList.tsx",
+      "id": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.tsx",
+      "name": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.tsx",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
   "./furnitureTypesList.css": [
     {
-      "id": "./src/components/furniture/furnitureTypes/furnitureTypesList.css",
-      "name": "./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "id": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.css",
+      "name": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
   "!!../../../../node_modules/css-loader/dist/cjs.js!./furnitureTypesList.css": [
     {
-      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypesList.css",
-      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypesList.css",
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureTypesList/furnitureTypesList.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
   "./furnitureTypeItem/furnitureTypeItem": [
     {
-      "id": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.tsx",
-      "name": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.tsx",
+      "id": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.tsx",
+      "name": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.tsx",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
   "./furnitureTypeItem.css": [
     {
-      "id": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
-      "name": "./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "id": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.css",
+      "name": "./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
   "!!../../../../../node_modules/css-loader/dist/cjs.js!./furnitureTypeItem.css": [
     {
-      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
-      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furnitureTypes/furnitureTypeItem/furnitureTypeItem.css",
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureTypesList/furnitureTypeItem/furnitureTypeItem.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
@@ -1901,18 +1901,18 @@
       "publicPath": "/static/main.js"
     }
   ],
-  "./furniture.css": [
+  "./furnitureCatalog.css": [
     {
-      "id": "./src/components/furniture/furniture.css",
-      "name": "./src/components/furniture/furniture.css",
+      "id": "./src/components/furnitureCatalog/furnitureCatalog.css",
+      "name": "./src/components/furnitureCatalog/furnitureCatalog.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
   ],
-  "!!../../../node_modules/css-loader/dist/cjs.js!./furniture.css": [
+  "!!../../../node_modules/css-loader/dist/cjs.js!./furnitureCatalog.css": [
     {
-      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furniture.css",
-      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furniture/furniture.css",
+      "id": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureCatalog.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/components/furnitureCatalog/furnitureCatalog.css",
       "file": "main.js",
       "publicPath": "/static/main.js"
     }
