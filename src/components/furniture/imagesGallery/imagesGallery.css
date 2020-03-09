@@ -1,0 +1,30 @@
+.images-gallery {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-image {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main-image > img {
+  object-fit: scale-down;
+  width: 55%;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.small-images > img {
+  width: 15%;
+  opacity: 0.5;
+}
+
+.small-images > img:hover {
+  cursor: pointer;
+  opacity: 1;
+}

@@ -9,6 +9,7 @@ import { PageNotFound } from '../pageNotFound/pageNotFound';
 import { ShoppingCart } from '../shoppingCartPage/shoppingCart';
 import { FurnitureCatalog } from '../furnitureCatalog/furnitureCatalog';
 import FurnitureList from '../furnitureList/furnitureListContainer';
+import Furniture from '../furniture/furnitureContainer';
 
 export const AppRouter = () => {
   return (
@@ -19,6 +20,7 @@ export const AppRouter = () => {
       <Route exact path="/feedbacks" component={Feedbacks} />
       <Route exact path="/delivery" component={DeliveryInfo} />
       <Route exact path="/shopping-cart" component={ShoppingCart} />
+      <Route exact path="/furniture/:furnitureId" component={Furniture} />
       <Route exact path="/catalog" component={FurnitureCatalog} />
       <Route
         exact
