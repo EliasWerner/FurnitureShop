@@ -4,7 +4,7 @@ import './furnitureCatalog.css';
 
 export const FurnitureCatalog = () => {
   return (
-    <div className="furniture">
+    <div className="furniture-types">
       <h3>Товары и услуги</h3>
       <FurnitureTypesList />
     </div>

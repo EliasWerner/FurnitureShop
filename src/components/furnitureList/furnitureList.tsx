@@ -42,13 +42,17 @@ export const FurnitureList = (props: IFurnitureListProps) => {
   }, [props.furnitureSubtypes]);
 
   return (
-    <div className="furniture-list">
+    <div className="furniture">
       {props.furnitureParentType ? (
         <h3>{props.furnitureParentType.Title}</h3>
       ) : null}
-      {props.furniture.length
-        ? props.furniture.map((f) => <FurnitureListItem furniture={f} />)
-        : null}
+      <div className="furniture-list">
+        {props.furniture.length
+          ? props.furniture.map((f) => (
+              <FurnitureListItem furniture={f} key={f.Id} />
+            ))
+          : null}
+      </div>
     </div>
   );
 };

@@ -26,7 +26,7 @@ export const FurnitureTypesList = (props: IFurnitureTypesProps) => {
     <div className="furniture-types-list">
       {props.furnitureTypes.length
         ? props.furnitureTypes.map((ft) => (
-            <FurnitureTypeItem furnitureType={ft} />
+            <FurnitureTypeItem furnitureType={ft} key={ft.Id} />
           ))
         : null}
     </div>

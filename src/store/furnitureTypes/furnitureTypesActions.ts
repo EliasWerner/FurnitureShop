@@ -96,6 +96,18 @@ export const getFurnitureTypeById = (typeId: number) => {
   };
 };
 
+export interface SetFurnitureSubtypes {
+  type: furnitureTypesActionTypes.SET_FURNITURE_SUBTYPES;
+  furnitureSubtypes: IFurnitureType[];
+}
+
+export const setFurnitureSubtypes = (
+  furnitureSubtypes: IFurnitureType[]
+): FurnitureTypesActions => ({
+  furnitureSubtypes,
+  type: furnitureTypesActionTypes.SET_FURNITURE_SUBTYPES,
+});
+
 export const getFurnitureSubtypesForParentType = (parentTypeId: number) => {
   return async (dispatch: any, getState: () => IGlobalState) => {
     try {
@@ -106,7 +118,7 @@ export const getFurnitureSubtypesForParentType = (parentTypeId: number) => {
         parentTypeId
       );
 
-      dispatch(setFurnitureTypes(furnitureTypes));
+      dispatch(setFurnitureSubtypes(furnitureTypes));
       dispatch(setLoading(OperationStatus.Completed));
     } catch (error) {
       dispatch(setLoading(OperationStatus.Failed));
@@ -119,4 +131,5 @@ export const getFurnitureSubtypesForParentType = (parentTypeId: number) => {
 export type FurnitureTypesActions =
   | SetLoading
   | SetFurnitureTypes
-  | SetSelectedFurnitureType;
+  | SetSelectedFurnitureType
+  | SetFurnitureSubtypes;

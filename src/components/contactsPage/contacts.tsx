@@ -14,35 +14,27 @@ export const Contacts = () => {
         <tbody>
           <tr>
             <td>Название</td>
-            <td>Mebel-online</td>
+            <td></td>
           </tr>
           <tr>
             <td>Контактное лицо</td>
-            <td>Дмитрий</td>
+            <td></td>
           </tr>
           <tr>
             <td>Адрес</td>
-            <td>Беларусь, Минский р-н, п. Лесной, д.37</td>
+            <td></td>
           </tr>
           <tr>
             <td>Телефон</td>
-            <td>+375296308753 - A1, Viber</td>
+            <td></td>
           </tr>
           <tr>
             <td>Email</td>
-            <td>
-              <a href="mebel-online-minsk@yandex.by">
-                mebel-online-minsk@yandex.by
-              </a>
-            </td>
+            <td></td>
           </tr>
           <tr>
             <td>Год основания</td>
-            <td>2014</td>
-          </tr>
-          <tr>
-            <td>Организационно-правовая форма</td>
-            <td>Субъект предпринимательской деятельности</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

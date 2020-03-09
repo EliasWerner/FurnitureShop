@@ -3,12 +3,14 @@ import { IFurnitureType } from '../../models/IFurnitureType';
 
 export interface IFurnitureTypesState {
   furnitureTypes: IFurnitureType[];
-  selectedFurnitureType: IFurnitureType | null;
+  currentFType: IFurnitureType | null;
+  furnitureSubtypes: IFurnitureType[];
   furnitureTypesLoadStatus: OperationStatus;
 }
 
 export const furnitureTypesState: IFurnitureTypesState = {
   furnitureTypes: [],
-  selectedFurnitureType: null,
+  furnitureSubtypes: [],
+  currentFType: null,
   furnitureTypesLoadStatus: OperationStatus.NotStarted,
 };

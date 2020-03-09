@@ -18,7 +18,10 @@ const furnitureTypesReducer: Reducer<
       return { ...state, furnitureTypes: action.furnitureTypes };
     }
     case furnitureTypesActionTypes.SET_CURRENT_FURNITURE_TYPE: {
-      return { ...state, selectedFurnitureType: action.furnitureType };
+      return { ...state, currentFType: action.furnitureType };
+    }
+    case furnitureTypesActionTypes.SET_FURNITURE_SUBTYPES: {
+      return { ...state, furnitureSubtypes: action.furnitureSubtypes };
     }
     case furnitureTypesActionTypes.SET_FURNITURE_TYPES_LOAD_STATUS: {
       return { ...state, furnitureTypesLoadStatus: action.status };

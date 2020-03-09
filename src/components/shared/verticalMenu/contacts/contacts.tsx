@@ -6,27 +6,26 @@ export const Contacts = () => {
     <div className="contacts">
       <h4>Контакты</h4>
       <div className="item">
-        <h6>Компания</h6>Mebel-online
+        <h6>Компания</h6>
       </div>
       <div className="item">
-        <h6>Контактное лицо</h6>Дмитрий
+        <h6>Контактное лицо</h6>
       </div>
       <div className="item">
         <h6>Телефон</h6>
-        <div>+3754444444</div>
-        <span>A1, Viber</span>
+        <div></div>
+        <span></span>
       </div>
       <div className="item">
         <h6>Сайт</h6>
-        <a href="mebel-online.by">mebel-online.by</a>
+        <a href="/"></a>
       </div>
       <div className="item">
         <h6>Email</h6>
-        <a href="mebel-online-minsk@yandex.by">mebel-online-minsk@yandex.by</a>
+        <a href="/"></a>
       </div>
       <div className="item">
         <h6>Адрес</h6>
-        Беларусь, Минский район, п.Лесной, д.37
       </div>
     </div>
   );

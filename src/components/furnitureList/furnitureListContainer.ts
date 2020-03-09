@@ -6,7 +6,10 @@ import {
   IFurnitureListParams,
 } from './furnitureList';
 import { IFurnitureType } from '../../models/IFurnitureType';
-import { getFurnitureTypeById } from '../../store/furnitureTypes/furnitureTypesActions';
+import {
+  getFurnitureTypeById,
+  getFurnitureSubtypesForParentType,
+} from '../../store/furnitureTypes/furnitureTypesActions';
 import { getFurnituresByTypes } from '../../store/furniture/furnitureActions';
 
 interface IFurnitureListOwnProps {
@@ -19,8 +22,8 @@ const mapStateToProps = (
 ): IFurnitureListParams => {
   return {
     parentTypeId: ownProps.parentTypeId,
-    furnitureParentType: state.furnitureTypes.selectedFurnitureType,
-    furnitureSubtypes: state.furnitureTypes.furnitureTypes,
+    furnitureParentType: state.furnitureTypes.currentFType,
+    furnitureSubtypes: state.furnitureTypes.furnitureSubtypes,
     furniture: state.furniture.furniture,
     loadStatus:
       state.furniture.furnitureLoadStatus &&
@@ -36,7 +39,9 @@ const mapDispatchToProps = (dispatch: any): IFurnitureListFuncs => {
     getFurnitureForTypes: (types: IFurnitureType[]) => {
       dispatch(getFurnituresByTypes(types));
     },
-    getFurnitureSubtypes: (parentType: IFurnitureType) => {},
+    getFurnitureSubtypes: (parentType: IFurnitureType) => {
+      dispatch(getFurnitureSubtypesForParentType(parentType.Id));
+    },
   };
 };
 

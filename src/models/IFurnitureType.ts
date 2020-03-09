@@ -3,4 +3,5 @@ export interface IFurnitureType {
   Title: string;
   ParentTypeId?: number;
   ImageUrl: string;
+  RouteLink?: string;
 }

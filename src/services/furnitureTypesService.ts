@@ -3,30 +3,35 @@ import { IFurnitureType } from '../models/IFurnitureType';
 export class FurnitureTypesService {
   private furnitureTypes: IFurnitureType[] = [
     {
-      Id: 1,
+      Id: 791663,
       Title: 'Кухни',
+      RouteLink: '/catalog/kuhni',
       ImageUrl: 'https://images.by.prom.st/158343576_w286_h250_kuhni.jpg',
     },
     {
-      Id: 2,
+      Id: 789807,
       Title: 'Прихожие',
+      RouteLink: '/catalog/prihozhie',
       ImageUrl: 'https://images.by.prom.st/157990490_w286_h250_prihozhie.jpg',
     },
     {
-      Id: 3,
+      Id: 1684225,
       Title: 'Туалетные столики',
+      RouteLink: '/catalog/tualetnye-stoliki',
       ImageUrl:
         'https://images.by.prom.st/158348785_w286_h250_tualetnye-stoliki.jpg',
     },
     {
-      Id: 4,
+      Id: 1407193,
       Title: 'Стенки и горки',
+      RouteLink: '/catalog/stenki-gorki',
       ImageUrl:
         'https://images.by.prom.st/157989015_w286_h250_stenki-gorki.jpg',
     },
     {
-      Id: 5,
+      Id: 7740189,
       Title: 'Тумбы под телевизор',
+      RouteLink: '/catalog/tumby-pod-tv',
       ImageUrl:
         'https://images.by.prom.st/158337490_w286_h250_tumby-pod-televizor.jpg',
     },
@@ -34,19 +39,19 @@ export class FurnitureTypesService {
       Id: 6,
       Title: 'Кухни линейные 1.6 метра',
       ImageUrl: '',
-      ParentTypeId: 1,
+      ParentTypeId: 791663,
     },
     {
       Id: 7,
       Title: 'Кухни линейные 1.8 метра',
       ImageUrl: '',
-      ParentTypeId: 1,
+      ParentTypeId: 791663,
     },
     {
       Id: 8,
       Title: 'Библиотеки',
       ImageUrl: '',
-      ParentTypeId: 4,
+      ParentTypeId: 1407193,
     },
   ];
 
