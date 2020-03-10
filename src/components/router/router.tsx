@@ -20,7 +20,7 @@ export const AppRouter = () => {
       <Route exact path="/feedbacks" component={Feedbacks} />
       <Route exact path="/delivery" component={DeliveryInfo} />
       <Route exact path="/shopping-cart" component={ShoppingCart} />
-      <Route exact path="/furniture/:furnitureId" component={Furniture} />
+
       <Route exact path="/catalog" component={FurnitureCatalog} />
       <Route
         exact
@@ -157,6 +157,7 @@ export const AppRouter = () => {
         path="/catalog/shkafy"
         render={() => <FurnitureList parentTypeId={7785768} />}
       />
+      <Route exact path="/:furnitureId" component={Furniture} />
       <Route component={PageNotFound} />
     </Switch>
   );

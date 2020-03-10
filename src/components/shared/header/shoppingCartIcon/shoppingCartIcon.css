@@ -1,0 +1,21 @@
+.shopping-card-icon {
+  align-self: center;
+  flex-grow: 1;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.shopping-card-icon:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.shopping-card-icon > svg {
+  margin-right: 10px;
+}
+
+.shopping-card-icon > span {
+  color: red;
+}

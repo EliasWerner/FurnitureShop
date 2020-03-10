@@ -7,9 +7,15 @@ export interface IImagesGalleryProps {
 }
 
 export const ImagesGallery = (props: IImagesGalleryProps) => {
-  const [selectedImage, setSelectedImage] = React.useState<string>(
-    props.images.length ? props.images[0] : ''
-  );
+  const [selectedImage, setSelectedImage] = React.useState<string>('');
+
+  React.useEffect(() => {
+    setSelectedImage(props.images.length ? props.images[0] : '');
+  }, []);
+
+  React.useEffect(() => {
+    setSelectedImage(props.images.length ? props.images[0] : '');
+  }, [props.images]);
 
   return (
     <div className="images-gallery">

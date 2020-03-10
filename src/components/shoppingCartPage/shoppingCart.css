@@ -1,0 +1,10 @@
+.shopping-cart {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.shopping-cart > h3 {
+  margin-bottom: 30px;
+}

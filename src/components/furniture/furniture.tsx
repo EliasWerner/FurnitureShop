@@ -3,6 +3,9 @@ import './furniture.css';
 import { IFurniture } from '../../models/IFurniture';
 import { OperationStatus } from '../../store/operationStatus';
 import { ImagesGallery } from './imagesGallery/imagesGallery';
+import { PricePanel } from './pricePanel/pricePanel';
+import { GeneralInfoPanel } from './generallnfoPanel/generalInfoPanel';
+import { Characteristics } from './characteristics/characteristics';
 
 export interface IFurnitureParams {
   furniture: IFurniture | null;
@@ -11,6 +14,7 @@ export interface IFurnitureParams {
 
 export interface IFurnitureFuncs {
   getFurnitureById: (furnitureId: number) => void;
+  addToShoppingCart: (furniture: IFurniture) => void;
 }
 
 export interface IFurnitureProps extends IFurnitureParams, IFurnitureFuncs {
@@ -28,9 +32,12 @@ export const Furniture = (props: IFurnitureProps) => {
     return null;
   }
 
+  const addToShoppingCart = () => {
+    props.addToShoppingCart(props.furniture as IFurniture);
+  };
+
   return (
     <div className="furniture">
-      <h3>{props.furniture.Title}</h3>
       <div className="furniture-row">
         <div className="furniture-col">
           <ImagesGallery
@@ -39,12 +46,19 @@ export const Furniture = (props: IFurnitureProps) => {
           />
         </div>
         <div className="furniture-col">
-          <div>{props.furniture.Price} руб.</div>
+          <h3>{props.furniture.Title}</h3>
+          <PricePanel
+            price={props.furniture.Price}
+            addToCard={addToShoppingCart}
+          />
+          <GeneralInfoPanel />
         </div>
       </div>
       <div
+        className="furniture-description"
         dangerouslySetInnerHTML={{ __html: props.furniture.Description }}
-      ></div>
+      />
+      <Characteristics furniture={props.furniture} />
     </div>
   );
 };

@@ -1,0 +1,13 @@
+.general-info-panel {
+  margin-top: 10px;
+  background-color: rgb(236, 248, 237);
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+
+  padding: 5px;
+}
+
+.general-info-panel > p {
+  margin-bottom: 10px;
+}

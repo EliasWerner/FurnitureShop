@@ -24,21 +24,3 @@
   flex-grow: 8;
   text-align: right;
 }
-
-.shopping-card {
-  align-self: center;
-  flex-grow: 1;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-}
-
-.shopping-card:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.shopping-card > svg {
-  margin-right: 10px;
-}

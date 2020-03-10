@@ -1,9 +1,9 @@
 import * as React from 'react';
 import './header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../../assets/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { Search } from './search/search';
+import ShoppingCartIconContainer from './shoppingCartIcon/shoppingCartIconContainer';
 
 export const Header = () => {
   return (
@@ -14,10 +14,7 @@ export const Header = () => {
       <div className="search">
         <Search />
       </div>
-      <NavLink className="shopping-card" to="/shopping-cart">
-        <FontAwesomeIcon icon={['fas', 'shopping-cart']} />
-        <span>Корзина</span>
-      </NavLink>
+      <ShoppingCartIconContainer />
     </div>
   );
 };
