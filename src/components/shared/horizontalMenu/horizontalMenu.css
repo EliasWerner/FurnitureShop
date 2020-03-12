@@ -1,13 +1,67 @@
-#horizontal-menu {
+.horizontal-menu {
   background-color: #2d2d2d;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
 }
 
-#horizontal-menu * {
+.horizontal-menu * {
   color: aliceblue;
+  margin-left: 10px;
+}
+.horizontal-menu *:hover {
+  color: aliceblue;
+  text-decoration: none;
 }
 
-.first-hor-menu-item {
+.horizontal-menu:first-child {
   font-size: 22px;
+}
+
+.menu-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-dropdown-button {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #2d2d2d;
+  display: block;
+}
+
+.menu-dropdown-button > span {
+  font-size: 14px;
+}
+
+.menu-dropdown-links {
+  text-align: left;
+  display: none;
+  position: absolute;
+  min-width: 500px;
+  background-color: #2d2d2d;
+  z-index: 1;
+}
+
+.menu-dropdown-links > a {
+  background-color: #2d2d2d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: thin dashed rgb(125, 125, 128);
+}
+
+.menu-dropdown-links > a:last-child {
+  border-bottom: none;
+}
+
+.menu-dropdown:hover .menu-dropdown-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-dropdown:hover .menu-dropdown-button {
+  background-color: #3e8e41;
 }
 
 .hor-menu-item {

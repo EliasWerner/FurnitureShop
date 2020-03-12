@@ -1,48 +1,41 @@
 import * as React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import './horizontalMenu.css';
 import { NavLink } from 'react-router-dom';
 
 export const HorizontalMenu = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" id="horizontal-menu">
-      <div>
-        <NavLink className="first-hor-menu-item" to="/">
-          Главная
+    <div className="horizontal-menu">
+      <NavLink to="/">Главная</NavLink>
+      <div className="menu-dropdown">
+        <NavLink className="menu-dropdown-button" to={'/catalog'}>
+          Товары и услуги <span>▼</span>
         </NavLink>
+        <div className="menu-dropdown-links">
+          <NavLink to="/catalog/mebel-dlya-spalni">Мебель для спальни</NavLink>
+          <NavLink to="/catalog/mebel-dlya-gostinoj">
+            Мебель для гостиной
+          </NavLink>
+          <NavLink to="/catalog/detskaya-podrostkovaya-mebel">
+            Детская и подростковая мебель
+          </NavLink>
+          <NavLink to="/catalog/shkafy-vitriny-stellazhi">
+            Шкафы, витрины, стеллажи
+          </NavLink>
+          <NavLink to="/catalog/kuhni">Кухни</NavLink>
+          <NavLink to="/catalog/kuhonnye-ugolki-stoly">
+            Кухонные уголки, столы, тубуреты и стулья
+          </NavLink>
+          <NavLink to="/catalog/stoly-pismennyekompyuternye-zhurnalnye">
+            Столы письменные, компьютерные, журнальные
+          </NavLink>
+          <NavLink to="/catalog/komody-tumby">Комоды и тумбы</NavLink>
+          <NavLink to="/catalog/myagkaya-mebel">Мягкая мебель</NavLink>
+          <NavLink to="/catalog/dop-pozitsii">Доп позиции</NavLink>
+        </div>
       </div>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto" id="horizontal-menu-items">
-          <div className="hor-menu-item">
-            <NavDropdown title="Товары и услуги" id="horizontal-menu-dropdown">
-              <div className="hor-menu-subitem">
-                <NavLink to="/catalog">Мебель</NavLink>
-              </div>
-              <div className="hor-menu-subitem">
-                <NavLink to="/">2</NavLink>
-              </div>
-              <div className="hor-menu-subitem">
-                <NavLink to="/">3</NavLink>
-              </div>
-              <div className="hor-menu-subitem">
-                <NavLink to="/">4</NavLink>
-              </div>
-            </NavDropdown>
-          </div>
-          <div className="hor-menu-item">
-            <NavLink to="/about-us">О нас</NavLink>
-          </div>
-          <div className="hor-menu-item">
-            <NavLink to="/contacts">Контакты</NavLink>
-          </div>
-          <div className="hor-menu-item">
-            <NavLink to="/delivery">Доставка и оплата</NavLink>
-          </div>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+      <NavLink to="/about-us">О нас</NavLink>
+      <NavLink to="/contacts">Контакты</NavLink>
+      <NavLink to="/delivery">Доставка и оплата</NavLink>
+    </div>
   );
 };
