@@ -13,7 +13,7 @@ const shoppingCartReducer: Reducer<IShoppingCartState, ShoppingCartActions> = (
         (item) => item.furniture.Id === action.furniture.Id
       );
 
-      if (!isAlreadyContainsItem) {
+      if (!isAlreadyContainsItem.length) {
         return {
           ...state,
           shoppingCartItems: [
@@ -57,6 +57,21 @@ const shoppingCartReducer: Reducer<IShoppingCartState, ShoppingCartActions> = (
           return {
             ...item,
             amount: item.amount > 1 ? item.amount - 1 : item.amount,
+          };
+        }),
+      };
+    }
+    case shoppingCartActionTypes.SET_FURNITURE_AMOUNT: {
+      return {
+        ...state,
+        shoppingCartItems: state.shoppingCartItems.map((item) => {
+          if (item.furniture.Id !== action.furniture.Id) {
+            return item;
+          }
+
+          return {
+            ...item,
+            amount: action.newAmount,
           };
         }),
       };

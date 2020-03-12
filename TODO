@@ -1,0 +1,11 @@
+1. Add react meta tags
+2. Add user sign in/log in
+3. Admin page
+    3.1. Furniture add/update/delete
+    3.2. FurnitureType add/update/delete -> subtypes
+    3.3. Order view/verification
+    3.4. View users
+4. Feedback add/update/delete
+5. User page
+    5.1. View my orders - with status
+    5.2. Add feedback

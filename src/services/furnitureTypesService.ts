@@ -3,55 +3,68 @@ import { IFurnitureType } from '../models/IFurnitureType';
 export class FurnitureTypesService {
   private furnitureTypes: IFurnitureType[] = [
     {
-      Id: 791663,
-      Title: 'Кухни',
-      RouteLink: '/catalog/kuhni',
-      ImageUrl: 'https://images.by.prom.st/158343576_w286_h250_kuhni.jpg',
-    },
-    {
-      Id: 789807,
-      Title: 'Прихожие',
-      RouteLink: '/catalog/prihozhie',
-      ImageUrl: 'https://images.by.prom.st/157990490_w286_h250_prihozhie.jpg',
-    },
-    {
-      Id: 1684225,
-      Title: 'Туалетные столики',
-      RouteLink: '/catalog/tualetnye-stoliki',
+      Id: 791655,
+      Title: 'Детская и подростковая мебель',
+      RouteLink: '/catalog/detskaya-podrostkovaya-mebel',
       ImageUrl:
-        'https://images.by.prom.st/158348785_w286_h250_tualetnye-stoliki.jpg',
+        'https://images.by.prom.st/161846870_modulnaya-detskaya-ilona.jpg',
     },
     {
-      Id: 1407193,
-      Title: 'Стенки и горки',
-      RouteLink: '/catalog/stenki-gorki',
+      Id: 8416189,
+      Title: 'Мебель для гостиной',
+      RouteLink: '/catalog/mebel-dlya-gostinoj',
+      ImageUrl: 'https://images.by.prom.st/161836633_gostinaya-siti-ondens.jpg',
+    },
+    {
+      Id: 8416188,
+      Title: 'Мебель для спальни',
+      RouteLink: '/catalog/mebel-dlya-spalni',
+      ImageUrl:
+        'https://images.by.prom.st/160883565_modulnaya-spalnya-eshli.jpg',
+    },
+    {
+      Id: 8416196,
+      Title: 'Шкафы, витрины, стеллажи',
+      RouteLink: '/catalog/shkafy-vitriny-stellazhi',
       ImageUrl:
         'https://images.by.prom.st/157989015_w286_h250_stenki-gorki.jpg',
     },
     {
-      Id: 7740189,
-      Title: 'Тумбы под телевизор',
-      RouteLink: '/catalog/tumby-pod-tv',
+      Id: 791663,
+      Title: 'Кухни',
+      RouteLink: '/catalog/kuhni',
+      ImageUrl: 'https://images.by.prom.st/155599484_kuhnya-simpl-21.jpg',
+    },
+    {
+      Id: 1684489,
+      Title: 'Кухонные уголки, столы, тубуреты и стулья',
       ImageUrl:
-        'https://images.by.prom.st/158337490_w286_h250_tumby-pod-televizor.jpg',
+        'https://images.by.prom.st/159106880_stol-obedennyj-raskladnoj.jpg',
+      RouteLink: '/catalog/kuhonnye-ugolki-stoly',
     },
     {
-      Id: 6,
-      Title: 'Кухни линейные 1.6 метра',
-      ImageUrl: '',
-      ParentTypeId: 791663,
+      Id: 791702,
+      Title: 'Столы письменные, компьютерные, журнальные',
+      ImageUrl: 'https://images.by.prom.st/160177099_stol-pismennyj-tip.jpg',
+      RouteLink: '/catalog/stoly-pismennyekompyuternye-zhurnalnye',
     },
     {
-      Id: 7,
-      Title: 'Кухни линейные 1.8 метра',
-      ImageUrl: '',
-      ParentTypeId: 791663,
+      Id: 1684030,
+      Title: 'Комоды и тумбы',
+      ImageUrl: 'https://images.by.prom.st/160177167_komod-1400-betti.jpg',
+      RouteLink: '/catalog/komody-tumby',
     },
     {
-      Id: 8,
-      Title: 'Библиотеки',
-      ImageUrl: '',
-      ParentTypeId: 1407193,
+      Id: 6692497,
+      Title: 'Мягкая мебель',
+      ImageUrl: 'https://images.by.prom.st/162607652_divan-krovat-london-.jpg',
+      RouteLink: '/catalog/myagkaya-mebel',
+    },
+    {
+      Id: 8416195,
+      Title: 'Доп позиции',
+      ImageUrl: 'https://images.by.prom.st/166008493_banketka-palermo-2.jpg',
+      RouteLink: '/catalog/dop-pozitsii',
     },
   ];
 

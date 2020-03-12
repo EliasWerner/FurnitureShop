@@ -15,7 +15,7 @@ export const GeneralInfoPanel = () => {
         <FontAwesomeIcon icon={['fas', 'clock']} />
       </p>
       <p>
-        <FontAwesomeIcon icon={['far', 'map-marker-alt']} />
+        <FontAwesomeIcon icon={['fas', 'map-marker-alt']} />
       </p>
     </div>
   );

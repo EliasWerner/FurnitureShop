@@ -10,17 +10,16 @@ export interface IFurnitureTypeItemProps {
 export const FurnitureTypeItem = (props: IFurnitureTypeItemProps) => {
   return (
     <NavLink
+      className="furniture-types-list-item"
       to={props.furnitureType.RouteLink ? props.furnitureType.RouteLink : '/'}
     >
-      <div className="furniture-types-list-item">
-        <div className="image-container">
-          <img
-            src={props.furnitureType.ImageUrl}
-            alt={props.furnitureType.Title}
-          ></img>
-        </div>
-        <h4>{props.furnitureType.Title}</h4>
+      <div className="image-container">
+        <img
+          src={props.furnitureType.ImageUrl}
+          alt={props.furnitureType.Title}
+        ></img>
       </div>
+      <h4>{props.furnitureType.Title}</h4>
     </NavLink>
   );
 };

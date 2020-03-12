@@ -24,6 +24,21 @@ export const increaseAmount = (furniture: IFurniture): ShoppingCartActions => ({
   type: shoppingCartActionTypes.INCREASE_FURNITURE_AMOUNT,
 });
 
+export interface SetAmount {
+  type: shoppingCartActionTypes.SET_FURNITURE_AMOUNT;
+  furniture: IFurniture;
+  newAmount: number;
+}
+
+export const setAmount = (
+  furniture: IFurniture,
+  newAmount: number
+): ShoppingCartActions => ({
+  furniture,
+  newAmount,
+  type: shoppingCartActionTypes.SET_FURNITURE_AMOUNT,
+});
+
 export interface DecreaseAmount {
   type: shoppingCartActionTypes.DECREASE_FURNITURE_AMOUNT;
   furniture: IFurniture;
@@ -48,4 +63,5 @@ export type ShoppingCartActions =
   | AddToCart
   | DeleteFromCart
   | IncreaseAmount
-  | DecreaseAmount;
+  | DecreaseAmount
+  | SetAmount;

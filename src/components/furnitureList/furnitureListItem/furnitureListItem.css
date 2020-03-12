@@ -3,6 +3,12 @@
   margin-bottom: 30px;
   text-align: center;
   border: 1px solid rgb(238, 238, 238);
+  color: black;
+}
+
+.furniture-list-item:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .furniture-list-item:hover {

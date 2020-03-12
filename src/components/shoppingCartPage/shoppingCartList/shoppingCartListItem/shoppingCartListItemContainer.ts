@@ -10,6 +10,7 @@ import {
   deleteFromCart,
   decreaseAmount,
   increaseAmount,
+  setAmount,
 } from '../../../../store/shoppingCard/shoppingCartActions';
 
 export interface IShoppingCartListItemOwnProps {
@@ -35,6 +36,9 @@ const mapDispatchToProps = (dispatch: any): IShoppingCartListItemFunc => {
     },
     increaseAmount: (item: IShoppingCartItem) => {
       dispatch(increaseAmount(item.furniture));
+    },
+    setAmount: (listItem: IShoppingCartItem, newAmount: number) => {
+      dispatch(setAmount(listItem.furniture, newAmount));
     },
   };
 };

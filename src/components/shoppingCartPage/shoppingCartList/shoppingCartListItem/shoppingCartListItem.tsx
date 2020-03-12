@@ -11,6 +11,7 @@ export interface IShoppingCartListItemFunc {
   deleteFromCart: (listItem: IShoppingCartItem) => void;
   increaseAmount: (listItem: IShoppingCartItem) => void;
   decreaseAmount: (listItem: IShoppingCartItem) => void;
+  setAmount: (listItem: IShoppingCartItem, newAmount: number) => void;
 }
 
 export interface IShoppingCartListItemProps
@@ -32,7 +33,15 @@ export const ShoppingCartListItem = (props: IShoppingCartListItemProps) => {
       </div>
       <div className="shopping-cart-list-item-amount">
         <button onClick={() => props.decreaseAmount(props.listItem)}>-</button>
-        <input type="number" value={props.listItem.amount} />
+        <input
+          type="text"
+          value={props.listItem.amount}
+          onChange={(e) => {
+            if (Number(e.target.value) && Number(e.target.value) > 0) {
+              props.setAmount(props.listItem, Number(e.target.value));
+            }
+          }}
+        />
         <button onClick={() => props.increaseAmount(props.listItem)}>+</button>
       </div>
       <div

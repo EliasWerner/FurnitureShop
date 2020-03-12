@@ -8,11 +8,16 @@
   font-size: 24px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
+}
+
+.shopping-cart-list-item > a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .shopping-cart-list-item-image {
-  width: 150px;
+  width: 15%;
   margin-right: 15px;
 }
 
@@ -23,16 +28,25 @@
 
 .shopping-cart-list-item-title {
   margin-right: 15px;
+  width: 45%;
 }
 
 .shopping-cart-list-item-amount {
   margin-right: 15px;
+  width: 15%;
 }
 
 .shopping-cart-list-item-amount > input {
-  width: 2em;
+  width: 1.5em;
+  text-align: center;
 }
 
 .shopping-cart-list-item-delete:hover {
   cursor: pointer;
+}
+
+.shopping-cart-list-item-delete {
+  text-align: right;
+  width: 25%;
+  padding-right: 25px;
 }
