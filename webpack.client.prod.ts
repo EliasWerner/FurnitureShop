@@ -3,11 +3,8 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import ExtractPlugin from 'mini-css-extract-plugin';
 import webpack from 'webpack';
-// tslint:disable-next-line:no-var-requires
-const ReactLoadablePlugin = require('react-loadable/webpack')
-  .ReactLoadablePlugin;
-// tslint:disable-next-line:no-var-requires
 const StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
+const LoadablePlugin = require('@loadable/webpack-plugin');
 
 const clientConfig: webpack.Configuration = {
   name: 'client',
@@ -33,6 +30,7 @@ const clientConfig: webpack.Configuration = {
         },
       },
     },
+    moduleIds: 'deterministic',
   },
   module: {
     rules: [
@@ -53,11 +51,11 @@ const clientConfig: webpack.Configuration = {
       },
       {
         test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          name: '[name].[hash:8].[ext]',
-        },
+        type: 'asset/resource',
+        // options: {
+        //   limit: 10000,
+        //   name: '[name].[hash:8].[ext]',
+        // },
       },
       {
         test: /\.css$/,
@@ -66,14 +64,13 @@ const clientConfig: webpack.Configuration = {
     ],
   },
   plugins: [
-    new webpack.HashedModuleIdsPlugin(),
-    new ReactLoadablePlugin({
+    new LoadablePlugin({
       filename: './build/server/react-loadable.json',
     }),
     new StatsWriterPlugin({
       filename: '../server/stats.json',
     }),
-    new CopyWebpackPlugin([{ from: './src/public' }]),
+    new CopyWebpackPlugin({ patterns: [{ from: './src/public' }] }),
     new ExtractPlugin({
       filename: '[name]-[contenthash].css',
     }),

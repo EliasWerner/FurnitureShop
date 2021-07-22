@@ -1,7 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const autoprefixer = require('autoprefixer');
 const nodeExternals = require('webpack-node-externals');
 
 var config = {
@@ -28,7 +26,7 @@ var client = Object.assign({}, config, {
 
 var server = Object.assign({}, config, {
   name: 'server',
-  target: 'node',
+  externalsPresets: { node: true },
   externals: [nodeExternals()],
   output: {
     filename: 'bundle.js',

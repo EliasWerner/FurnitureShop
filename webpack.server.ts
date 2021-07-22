@@ -1,6 +1,6 @@
 // tslint:disable:object-literal-sort-keys
 import webpack from 'webpack';
-import nodeExternals from 'webpack-node-externals';
+const nodeExternals = require('webpack-node-externals');
 
 const serverConfig: webpack.Configuration = {
   name: 'server',
@@ -21,6 +21,7 @@ const serverConfig: webpack.Configuration = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
   },
+
   externals: [nodeExternals()],
   module: {
     rules: [
@@ -41,7 +42,7 @@ const serverConfig: webpack.Configuration = {
       },
       {
         test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-        loader: 'url-loader',
+        type: 'asset/resource',
         options: {
           limit: 10000,
           emitFile: false,

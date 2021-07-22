@@ -19,20 +19,20 @@
         "@types/serve-favicon": "^2.5.0",   // uninstall
         "react-redux": "^7.2.0",            // Mobx
         "redux-thunk": "^2.3.0",            // uninstall
-        "@babel/plugin-syntax-dynamic-import": "^7.8.3",    // https://babeljs.io/blog/2019/07/03/7.5.0
-        "@types/copy-webpack-plugin": "^5.0.0",     // Dont work with webpqck 5 ???
-        "autoprefixer": "^9.7.4",           // uninstall
-        "extract-text-webpack-plugin": "^3.0.2",    // uninstall
-        "file-loader": "^5.1.0",            // deprecated. need to update to https://webpack.js.org/guides/asset-modules/
-        "ignore-styles": "^5.0.1",            // uninstall
-        "postcss-loader": "^3.0.0",         // need to update to use webpack 5  https://www.npmjs.com/package/postcss-loader
+        --"@babel/plugin-syntax-dynamic-import": "^7.8.3",    // https://babeljs.io/blog/2019/07/03/7.5.0
+        --"@types/copy-webpack-plugin": "^5.0.0",     // Dont work with webpqck 5 ???
+        --"autoprefixer": "^9.7.4",           // uninstall
+        --"extract-text-webpack-plugin": "^3.0.2",    // uninstall
+        --"file-loader": "^5.1.0",            // deprecated. need to update to https://webpack.js.org/guides/asset-modules/
+        --"ignore-styles": "^5.0.1",            // uninstall
+        --"postcss-loader": "^3.0.0",         // need to update to use webpack 5  https://www.npmjs.com/package/postcss-loader
         "react-hot-loader": "^4.12.19",     // need to replace ???
         "react-loadable": "^5.5.0",         //Try to  replace with https://www.npmjs.com/package/@loadable/component
-        "serve-favicon": "^2.5.0",          // delete
-        "tslint": "^6.0.0",                 // use eslint https://github.com/typescript-eslint/tslint-to-eslint-config 
-        "tslint-react": "^4.2.0",           // deprecated
-        "tslint-sonarts": "^1.9.0",         // deprecated use https://www.npmjs.com/package/eslint-plugin-sonarjs
-        "url-loader": "^3.0.0",             // deprecated use     https://webpack.js.org/guides/asset-modules/
+        --"serve-favicon": "^2.5.0",          // delete
+        --"tslint": "^6.0.0",                 // use eslint https://github.com/typescript-eslint/tslint-to-eslint-config 
+        --"tslint-react": "^4.2.0",           // deprecated
+        --"tslint-sonarts": "^1.9.0",         // deprecated use https://www.npmjs.com/package/eslint-plugin-sonarjs
+        --"url-loader": "^3.0.0",             // deprecated use     https://webpack.js.org/guides/asset-modules/
     * Need to update everything
     * Install exact versions
 

@@ -1,7 +1,7 @@
 {
   "presets": ["@babel/env", "@babel/react"],
   "plugins": [
-    "react-loadable/babel",
+    "@loadable/babel-plugin",
     "react-hot-loader/babel",
     "@babel/plugin-syntax-dynamic-import"
   ]

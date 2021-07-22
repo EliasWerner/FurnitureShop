@@ -1,7 +1,4 @@
 import express from 'express';
-import path from 'path';
-import Loadable from 'react-loadable';
-import serveFavicon from 'serve-favicon';
 import { config } from './config';
 
 const app = express();
@@ -60,12 +57,10 @@ if (!config.isProd) {
 }
 
 function startServer() {
-  Loadable.preloadAll().then(() => {
-    app.listen(config.serverPort, () => {
-      // tslint:disable-next-line:no-console
-      console.log(`running at http://localhost:${config.serverPort}`);
-      // tslint:disable-next-line:no-console
-      console.log(`environemt: ${config.env}`);
-    });
+  app.listen(config.serverPort, () => {
+    // tslint:disable-next-line:no-console
+    console.log(`running at http://localhost:${config.serverPort}`);
+    // tslint:disable-next-line:no-console
+    console.log(`environemt: ${config.env}`);
   });
 }

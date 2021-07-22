@@ -1,6 +1,5 @@
 import webpack from 'webpack';
-const ReactLoadablePlugin = require('react-loadable/webpack')
-  .ReactLoadablePlugin;
+const LoadablePlugin = require('@loadable/webpack-plugin');
 
 const clientConfig: webpack.Configuration = {
   name: 'client',
@@ -38,11 +37,11 @@ const clientConfig: webpack.Configuration = {
       },
       {
         test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          name: '[name].[hash:8].[ext]',
-        },
+        type: 'asset/resource',
+        // options: {
+        //   limit: 10000,
+        //   name: '[name].[hash:8].[ext]',
+        // },
       },
       {
         test: /\.css$/,
@@ -50,12 +49,14 @@ const clientConfig: webpack.Configuration = {
       },
     ],
   },
+  optimization: {
+    moduleIds: 'named',
+  },
 
   plugins: [
-    new ReactLoadablePlugin({
+    new LoadablePlugin({
       filename: './server/react-loadable.json',
     }),
-    new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
   ],
 };
