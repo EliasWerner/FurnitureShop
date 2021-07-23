@@ -82,9 +82,8 @@ export const getFurnitureTypeById = (typeId: number) => {
       dispatch(setLoading(OperationStatus.InProgress));
 
       const service = new FurnitureTypesService();
-      const furnitureType: IFurnitureType = service.getFurnityreTypeById(
-        typeId
-      );
+      const furnitureType: IFurnitureType =
+        service.getFurnityreTypeById(typeId);
 
       dispatch(setSelectedFurnitureType(furnitureType));
       dispatch(setLoading(OperationStatus.Completed));
@@ -114,9 +113,8 @@ export const getFurnitureSubtypesForParentType = (parentTypeId: number) => {
       dispatch(setLoading(OperationStatus.InProgress));
 
       const service = new FurnitureTypesService();
-      const furnitureTypes: IFurnitureType[] = service.getFurnitureSubtypes(
-        parentTypeId
-      );
+      const furnitureTypes: IFurnitureType[] =
+        service.getFurnitureSubtypes(parentTypeId);
 
       dispatch(setFurnitureSubtypes(furnitureTypes));
       dispatch(setLoading(OperationStatus.Completed));

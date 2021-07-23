@@ -3,7 +3,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import Loadable from 'react-loadable';
 import { StaticRouter } from 'react-router';
-import App from '../src/App';
+import App from '../client/App';
 import { HtmlBuilder } from './htmlBuilder';
 
 let reactLoadableStats: any = {};

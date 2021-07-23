@@ -1,4 +1,5 @@
 const { getBundles } = require('react-loadable/webpack');
+import { ChunkExtractor } from '@loadable/server';
 
 export interface IStats {
   assetsByChunkName:
@@ -58,12 +59,16 @@ export class HtmlBuilder {
                 <head>
                     <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
                     <title>react-typescript-ssr</title>
-                    ${(process.env.NODE_ENV === 'production' &&
-                      this.getAsset('vendors', '.css')) ||
-                      ''}
-                    ${(process.env.NODE_ENV === 'production' &&
-                      this.getAsset('main', '.css')) ||
-                      ''}
+                    ${
+                      (process.env.NODE_ENV === 'production' &&
+                        this.getAsset('vendors', '.css')) ||
+                      ''
+                    }
+                    ${
+                      (process.env.NODE_ENV === 'production' &&
+                        this.getAsset('main', '.css')) ||
+                      ''
+                    }
                     ${this.stylePlaceholder}
                 </head>
                 <body>
